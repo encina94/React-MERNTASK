@@ -1,0 +1,8 @@
+# https://finnian.io/blog/rapid-development-with-node-js-and-docker/
+
+version: '3.1'
+services:
+    server:
+        build:
+            context: ./servidor
+            dockerfile: Dockerfile.dev

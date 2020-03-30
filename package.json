@@ -1,0 +1,10 @@
+{
+    "name": "MERNTASKS",
+    "version": "1.0.0",
+    "description": "MERN API para MERN TASKS",
+    "scripts": {
+      "deploy:develop": "docker-compose up --build"
+    },
+    "author": "Sebastian Encina",
+    "license": "ISC"
+  }

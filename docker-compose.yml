@@ -1,0 +1,8 @@
+# https://finnian.io/blog/rapid-development-with-node-js-and-docker/
+
+version: '3.1'
+services:
+  mongo:
+    image: mongo
+    ports:
+      - '27018:27017'
